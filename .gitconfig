@@ -55,3 +55,7 @@
 [merge]
         tool = nvimdiff
 
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/bin/gpg

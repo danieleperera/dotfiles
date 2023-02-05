@@ -92,3 +92,8 @@ if [ -x /usr/bin/dircolors ]; then
     export LESS_TERMCAP_us=$'\E[1;32m'     # begin underline
     export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
 fi
+
+#export SSH_AUTH_SOCK="/run/user/$UID/gnupg/S.gpg-agent.extra"
+#export SSH_AUTH_SOCK="/run/user/$UID/gnupg/S.gpg-agent.ssh"  WORKS FOR SSH
+
+export SSH_AUTH_SOCK="/run/user/$UID/gnupg/S.gpg-agent.ssh"
